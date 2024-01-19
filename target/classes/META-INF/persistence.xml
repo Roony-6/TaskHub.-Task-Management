@@ -3,6 +3,7 @@
   <persistence-unit name="TaskHub_PU" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>com.mycompany.taskhub.LOGIC.Task</class>
+    <class>com.mycompany.taskhub.LOGIC.TaskGroup</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/TaskHub?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
       <property name="javax.persistence.jdbc.user" value="root"/>

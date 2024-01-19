@@ -2,8 +2,11 @@ com\mycompany\taskhub\PERSISTENCE\PresistenceController.class
 com\mycompany\taskhub\LOGIC\Task_.class
 com\mycompany\taskhub\TaskHub.class
 com\mycompany\taskhub\PERSISTENCE\exceptions\PreexistingEntityException.class
-com\mycompany\taskhub\LOGIC\LogicController.class
 com\mycompany\taskhub\LOGIC\Task.class
+com\mycompany\taskhub\LOGIC\TaskGroup_.class
 com\mycompany\taskhub\PERSISTENCE\exceptions\IllegalOrphanException.class
 com\mycompany\taskhub\PERSISTENCE\exceptions\NonexistentEntityException.class
+com\mycompany\taskhub\LOGIC\TaskGroup.class
+com\mycompany\taskhub\LOGIC\LogicController.class
+com\mycompany\taskhub\GUI\Index.class
 com\mycompany\taskhub\PERSISTENCE\TaskJpaController.class
